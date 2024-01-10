@@ -1,0 +1,19 @@
+body {
+     font-family: FontAwesome;
+}
+
+.eicon-chevron-left:before {
+    font-family: FontAwesome;
+    content: "\f053"!important;
+}
+.eicon-chevron-right:before {
+    font-family: FontAwesome;
+    content: "\f054"!important;
+}
+
+.eicon-share-arrow:before {
+    font-family: FontAwesome;
+
+    content: "\e96c";
+}
+
