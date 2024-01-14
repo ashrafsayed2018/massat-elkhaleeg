@@ -555,3 +555,8 @@ body,html,* {
 .service:hover > .description {
   display: block;
 }
+
+.gallery img:hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.05);
+}

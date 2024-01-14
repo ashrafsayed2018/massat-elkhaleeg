@@ -214,7 +214,7 @@
 
 	 <!-- gallery -->
 
-	 <section>
+	 <section class="gallery">
 		<h1 class="text-center font-bold text-4xl my-8 text-blue-600">معرض اعمالنا</h1>
 		<div class="image-grid grid grid-cols-1 md:grid-cols-4 space-x-4 space-y-5">
 
@@ -290,7 +290,7 @@
 		
 		imagesArray.forEach((imagePath, index) => {
 			const card = document.createElement("div");
-			card.className = "card h-80 m-4";
+			card.className = "card h-80 m-4  transtion-all hover:scale-50 duration-700";
 
 			const img = document.createElement("img");
 			img.src = imagePath;
